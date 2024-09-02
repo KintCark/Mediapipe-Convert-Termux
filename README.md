@@ -9,13 +9,17 @@ pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && 
 
 2>
 
-pip install torch typing_extensions numpy Pillow requests pytorch_lightning absl-py
+apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y 
 
 3>
 
-pip install torch safetensors diffusers
+pip install torch typing_extensions numpy Pillow requests pytorch_lightning absl-py
 
 4>
+
+pip install torch safetensors diffusers
+
+5>
 
 just put both covert.py files in the termux ubuntu root folder and create 2 folders inside the root folder name one ckpt and the other output,then make sure u put the safetensors you want to convert in the root folder then just copy the name of each model then paste one at a time for each conversion inside the ckpt-convert.py file ull see an model already inside just overwrite that model name don't overwrite the root name it should look like this: /root/DreamShaper_v_8.safetensors
 
