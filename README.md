@@ -28,7 +28,7 @@ just put covert.py file in the termux ubuntu root folder and create 2 folders in
 --ckpt_path /root/ckpt/openjourney.ckpt)
 
 
-save the ckpt-convert.py file then just run this command:python3 convert.py --ckpt_path /root/ckpt/model.ckpt --output_path /root/output/
+ just run this command:python3 convert.py --ckpt_path /root/ckpt/model.ckpt --output_path /root/output/
 
 
 copy the whole command at once and paste it into termux then press enter.
