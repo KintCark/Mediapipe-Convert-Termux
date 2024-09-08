@@ -1,6 +1,7 @@
-# Mediapipe-Convert-Termux
-I can't upload lots of models to huggingface it takes to much time. but it's easy to convert yourself. u probably need at least 8gb ram depending on how big the model is;)
+#Mediapipe safetensors converter termux (Wip)
 
+
+Update:looks like you can't convert a safetensors to ckpt it won't work in the sdai full app only converting already made ckpt models work I gotta figure out how to convert diffusers to ckpt format or u can just search around huggingface for ckpt models I found a few also look on civitai they have a pickle tensor filter but most models now are safetensors so it's hard finding them but be careful don't go to sketchy websites only stay on those 2 sites.  huggingface and civitai.com 
 Makesure you install UBUNTU FIRST:
 
 1>
