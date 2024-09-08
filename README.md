@@ -24,7 +24,7 @@ pip install torch safetensors diffusers
 
 5>
 
-just putcovert.py file in the termux ubuntu root folder and create 2 folders inside the root folder name one ckpt and the other output,then make sure u put the ckpt you want to convert in the ckpt folder,then copy the name of the ckpt file and paste it in code ckpt_path line so (example: change --ckpt_path /root/ckpt/model.ckpt to 
+just put covert.py file in the termux ubuntu root folder and create 2 folders inside the root folder name one ckpt and the other output,then make sure u put the ckpt you want to convert in the ckpt folder,then copy the name of the ckpt file and paste it in code ckpt_path line so (example: change --ckpt_path /root/ckpt/model.ckpt to 
 --ckpt_path /root/ckpt/openjourney.ckpt)
 
 
