@@ -1,4 +1,5 @@
 #Mediapipe safetensors converter termux 
+LCM and Hyper SD1.5 Models Work!
 
 Update:if u use a mediapipe converter you will sometimes get a complete conversion but it will have 3 files missing alpha_cumprod,alpha_cumprod_prev,and beta.bin
 
