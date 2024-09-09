@@ -38,7 +38,7 @@ python3 ckpt-convert.py && python3 convert.py --ckpt_path /root/ckpt/model.ckpt 
 
 paste the whole thing in termux and the ull convert the safetensors to mediapipe then just download sdai full version select mediapipe local diffusion turn on load local model allow permission and then if u don't have SDAI folder in downloads just create it and then create model folder inside SDAI folder then go to ubuntu root open output copy all those files to SDAI/model folder. 
 
-now some conversions don't create f the preview files like I mentioned above so just download them and paste them in the model folder if you don't your app will crash when load image.
+now some conversions don't create the preview files like I mentioned above so just download them and paste them in the model folder if you don't your app will crash when load image.
 
 
 enjoy:)
