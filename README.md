@@ -25,7 +25,23 @@ pip install torch safetensors diffusers
 
 5>
 
+first Navigate to termux ubuntu root folder.
+
+next create 2 folders name one ckpt and the other output.
+
+then copy the ckpt-convert.py and convert.py files to the ubuntu root folder.
+
+next download any safetensors model and copy it to your ubuntu root folder,I like to use stargon browser Cuzco u can pick where u wanna download the file so I just save it in the ubuntu root folder.
+
+next open the ckpt-convert.py and scroll down untill u see and safetensors model name it should be goddess etc safetensors copy the name of your downloaded safetensors and overwrite the name of the current model in the path.do not erase the root name just overwrite the model. then save. it with an text editor I use quick text editor pro it's 👍. 
+
+now run this command 
+
+python3 ckpt-convert.py && python3 convert.py --ckpt_path /root/ckpt/model.ckpt --output_path /root/output/
+
+paste the whole thing in termux and the ull convert the safetensors to mediapipe then just download sdai full version select mediapipe local diffusion turn on load local model allow permission and then if u don't have SDAI folder in downloads just create it and then create model folder inside SDAI folder then go to ubuntu root open output copy all those files to SDAI/model folder. 
+
+now some conversions don't create f the preview files like I mentioned above so just download them and paste them in the model folder if you don't your app will crash when load image.
 
 
-
-copy the whole command at once and paste it into termux then press enter.
+enjoy:)
