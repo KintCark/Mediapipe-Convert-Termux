@@ -3,6 +3,7 @@
 
 Update:looks like you can't convert a safetensors to ckpt it won't work in the sdai full app only converting already made ckpt models work I gotta figure out how to convert diffusers to ckpt format or u can just search around huggingface for ckpt models I found a few also look on civitai they have a pickle tensor filter but most models now are safetensors so it's hard finding them but be careful don't go to sketchy websites only stay on those 2 sites.  huggingface and civitai.com 
 
+if u use a mediapipe converter you will sometimes get a complete conversion but it will have 3 files missing alpha_cumprod,alpha_cumprod_prev,and beta.bin
 
 Makesure you install UBUNTU FIRST:
 
@@ -24,11 +25,7 @@ pip install torch safetensors diffusers
 
 5>
 
-just put covert.py file in the termux ubuntu root folder and create 2 folders inside the root folder name one ckpt and the other output,then make sure u put the ckpt you want to convert in the ckpt folder,then copy the name of the ckpt file and paste it in code ckpt_path line so (example: change --ckpt_path /root/ckpt/model.ckpt to 
---ckpt_path /root/ckpt/openjourney.ckpt)
 
-
- just run this command:python3 convert.py --ckpt_path /root/ckpt/model.ckpt --output_path /root/output/
 
 
 copy the whole command at once and paste it into termux then press enter.
