@@ -1,4 +1,5 @@
 
+
 #Mediapipe safetensors converter termux 
 LCM and Hyper SD1.5 Models Work!
 Bf16 is now Supported!!
@@ -16,7 +17,25 @@ pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && 
 
 2>
 
-apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y 
+apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y && 
+pip install torch typing_extensions numpy Pillow requests pytorch_lightning absl-py && pip install torch safetensors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
