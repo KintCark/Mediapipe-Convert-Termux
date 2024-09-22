@@ -25,7 +25,7 @@ pip install torch typing_extensions numpy Pillow requests pytorch_lightning absl
 3>
 
 AFTER you install the required files just navigate to your termux ubuntu root folder
-and create 2 folders one named ckpt and other output then paste what ever sd1.5 model you want to use in the root folder then copy the name of the model open ckpt-converter.py and scroll down to line 23 i think untill u see a model namevit should look like /root/YourModelName.safetensors overwrite this with the current model of choice then save,then just run this command:
+and create 2 folders one named ckpt and other output then paste what ever sd1.5 model you want to use in the root folder then copy the name of the model open ckpt-converter.py and scroll down to line 23 i think untill u see a model namevit should look like /root/YourModelName.safetensors overwrite this with the current model of choice then save also copy the 2 convert.py files to the termux ubuntu root folder,then just run this command:
 
 python3 ckpt-convert.py && python3 convert_modified.py --ckpt_path /root/ckpt/model.ckpt --output_path /root/output/
 
