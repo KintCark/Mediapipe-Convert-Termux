@@ -13,8 +13,7 @@ pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && 
 
 2>
 
-apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip pipx python3-venv python-is-python3 -y && 0
-pip install torch typing_extensions numpy Pillow requests pytorch_lightning absl-py && pipx install torch && pipx ensurepath && pip install safetensors && apt-get install google-perftools && apt install libgoogle-perftools-dev && pip install gradio spaces
+apt update && apt upgrade -y && --break-system-packages apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3 -y && pip install torch typing_extensions numpy Pillow requests pytorch_lightning absl-py && pip install safetensors && apt-get install google-perftools && apt install libgoogle-perftools-dev && pip install gradio spaces
 
 
 
