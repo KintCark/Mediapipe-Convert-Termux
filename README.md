@@ -1,7 +1,9 @@
-Hey I have Great News! I fixed it! now when u Install pip not pipx u need to put --break-system-packages at the end of each pip installation packages u can look at step >2 for example the mediapipe converter works now;) 😉 
+update I fixed the ckpt convert.py it now will add missing state_dict to t b e ckpt. so now if u download a pickletensor u can convert it to mediapipe. thx to chatgpt 4o
 
 
-Update:if u use a mediapipe converter you will sometimes get a complete conversion but it will have 3 files missing alpha_cumprod,alpha_cumprod_prev,and beta.bin
+
+
+if u use a mediapipe converter you will sometimes get a complete conversion but it will have 3 files missing alpha_cumprod,alpha_cumprod_prev,and beta.bin
 download the required preview zip and paste the 3 files in your converted mediapipe model folder. 
 
 
@@ -20,9 +22,17 @@ apt update && apt upgrade -y && apt-get install curl git gcc make build-essentia
 3>
 
 AFTER you install the required files just navigate to your termux ubuntu root folder
-and create 2 folders one named ckpt and other output then paste what ever sd1.5 model you want to use in the root folder then copy the name of the model open ckpt-converter.py and scroll down to line 23 i think untill u see a model namevit should look like /root/YourModelName.safetensors overwrite this with the current model of choice then save also copy the 2 convert.py files to the termux ubuntu root folder,then just run this command:
+and create 2 folders one named ckpt and other output then paste what ever sd1.5 model you want to use in the root folder then copy the name of the model open ckpt-converter.py and scroll down to line 23 i think untill u see a model name it should look like /root/YourModelName.safetensors overwrite this with the current model of choice then save also copy the 2 convert.py files to the termux ubuntu root folder,then just run this command:
 
-python3 ckpt-convert.py && python3 convert_modified.py --ckpt_path /root/ckpt/model.ckpt --output_path /root/output/
+python3 ckpt-convert.py && python3 convert_fixed.py --ckpt_path /root/ckpt/model.ckpt --output_path /root/output/
+
+if u get a pickletensor file u can convert it with this code:
+
+ python3 convert_fixed.py --ckpt_path /root/ckpt/model.ckpt --output_path /root/output/ 
+
+just make sure u rename the ckpt to model.ckpt then place the ckpt in the ckpt folder.
+
+
 
 
 everytime you convert a model the ckpt folder will have a model.ckpt file in it just delete that before converting the next model.
@@ -32,7 +42,7 @@ the output folder will have your converted mediapipe model files make sure it ha
 
 
 
-
+Hey I have Great News! I fixed it! now when u Install pip not pipx u need to put --break-system-packages at the end of each pip installation packages u can look at step >2 for example the mediapipe converter works now;) 😉 
 
 
 
