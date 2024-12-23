@@ -1,0 +1,5 @@
+i fixed the convert.py  u can now download ckpt  files an convert them to mediapipe format 
+now everything should work safetensors and ckpts
+
+just remember to rename your ckpt to model.ckpt 
+and place it in the ckpt folder
