@@ -1,4 +1,4 @@
-update I fixed the ckpt convert.py it now will add missing state_dict to t b e ckpt. so now if u download a pickletensor u can convert it to mediapipe. thx to chatgpt 4o
+update I fixed the ckpt convert.py it now will add missing state_dict to t b e ckpt. so now if u download a pickletensor u can convert it to mediapipe. thx to chatgpt 4o, look in Code Tab
 
 
 
