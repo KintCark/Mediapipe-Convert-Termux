@@ -1,4 +1,10 @@
-update I fixed the ckpt convert.py it now will add missing state_dict to t b e ckpt. so now if u download a pickletensor u can convert it to mediapipe. thx to chatgpt 4o, look in Code Tab
+
+
+u don't need to use break-system-packages anymore all you need to do is make virtual environment.
+
+
+
+update I fixed the ckpt convert.py it now will add missing state_dict to the ckpt. so now if u download a pickletensor u can convert it to mediapipe. thx to chatgpt 4o, look in Code Tab
 
 
 
@@ -36,13 +42,7 @@ just make sure u rename the ckpt to model.ckpt then place the ckpt in the ckpt f
 
 
 everytime you convert a model the ckpt folder will have a model.ckpt file in it just delete that before converting the next model.
-the output folder will have your converted mediapipe model files make sure it has the alphacum files and the beta.bin then copy all the mediapipe files to a folder and name the folder the name of the model so you know which one it is.
-
-
-
-
-
-Hey I have Great News! I fixed it! now when u Install pip not pipx u need to put --break-system-packages at the end of each pip installation packages u can look at step >2 for example the mediapipe converter works now;) 😉 
+the output folder will have your converted mediapipe model files make sure it has the alphacum files and the beta.bin then copy all the mediapipe files to a folder and name the folder the name of the model so you know which one it is. 
 
 
 
