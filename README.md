@@ -53,16 +53,7 @@ pip install --no-cache-dir -r requirements.txt
 
 If you want to exit the virtual environment, run:
 
-deactivate
-
-
----
-
-Additional Notes:
-
-This setup ensures ComfyUI runs in a separate environment, avoiding conflicts with system packages.
-
-If your Termux does not have python-full=3.10.11 available, consider using a Proot-Distro like Ubuntu to run Python 3.10.11.
+deactivate 
 
 If running into RAM issues, consider adding swap memory in Termux.
 
