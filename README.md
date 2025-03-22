@@ -31,6 +31,7 @@ apt install python3-full git ffmpeg
 Create and activate a virtual environment:
 
 python3 -m venv mediapipe-env
+
 source mediapipe-env/bin/activate
 
 
