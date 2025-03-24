@@ -8,39 +8,8 @@ Before installing virtual environment
 make sure u install ubuntu in termux first 
 
 
-Looks like Python 3.12 actually Works!! U have to create a virtual environment so here is the guide:
 
-
-To run ComfyUI in a separate environment on Termux with Python 3.10.11, follow these steps:
-
-
----
-
-1. Install Required Packages
-
-First, ensure your Termux is updated and install necessary packages:
-
-apt update -y && apt upgrade -y
-apt install python3-full git ffmpeg
-
-
----
-
-2. Install & Setup a Virtual Environment
-
-Create and activate a virtual environment:
-
-python3 -m venv mediapipe-env
-
-source mediapipe-env/bin/activate
-
-
----
-
-
----
-
-4. Install Dependencies
+Install Dependencies
 
 Since you are using CPU-only, install the necessary requirements:
 
@@ -50,7 +19,7 @@ pip install --no-cache-dir -r requirements.txt
 
 ---
 
-6. (Optional) Deactivate Environment
+(Optional) Deactivate Environment
 
 If you want to exit the virtual environment, run:
 
@@ -78,7 +47,23 @@ pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && 
 
 2>
 
-apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3 && pip install torch && pip install typing_extensions numpy pillow requests pytorch_lightning absl-py safetensors && apt-get install google-perftools && apt-get install libgoogle-perftools-dev && pip install gradio spaces
+apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3
+
+
+
+3>
+
+python3 -m venv mediapipe-env
+
+4>
+
+source mediapipe-env/bin/activate
+
+
+
+5>
+
+pip install torch && pip install typing_extensions numpy pillow requests pytorch_lightning absl-py safetensors && apt-get install google-perftools && apt-get install libgoogle-perftools-dev && pip install gradio spaces
 
 
 
