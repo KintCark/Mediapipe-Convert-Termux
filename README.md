@@ -57,7 +57,7 @@ pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && 
 
 apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3
 
-after you install step 2 u will get an 668 error just go up and install virtual environment then come back down and install step 2 again 
+after you install step 2 u will get an 668 error just go step 3 and 4 install virtual environment then install step 2 again 
 
 3>
 
