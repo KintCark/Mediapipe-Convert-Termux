@@ -18,7 +18,7 @@ pip install --no-cache-dir -r requirements.txt
 
 
 ---
-python3-m venv mediapipe-env 
+python3 -m venv mediapipe-env 
 
 source mediapipe-env/bin/activate
 
