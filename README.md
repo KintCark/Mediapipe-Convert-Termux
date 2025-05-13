@@ -68,7 +68,9 @@ source mediapipe-env/bin/activate
 
 5>
 
-pip install torch && pip install typing_extensions numpy pillow requests pytorch_lightning absl-py safetensors && apt-get install google-perftools && apt-get install libgoogle-perftools-dev && pip install gradio spaces && pip install diffusers && pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install torch && pip install typing_extensions numpy pillow requests pytorch_lightning absl-py safetensors && apt-get install google-perftools && apt-get install libgoogle-perftools-dev && pip install gradio spaces && pip install diffusers && pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu && apt install libgl1 && apt install libgl1-mesa-glx
+
+
 
 
 
